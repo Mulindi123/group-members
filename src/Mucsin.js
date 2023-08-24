@@ -1,9 +1,7 @@
 function Mucsin() {
   return (
     <div>
-      <h1>
-        Hi <span style={{ color: blue }}>am</span> mucsin
-      </h1>
+      <h1>Hi am mucsin</h1>
     </div>
   );
 }
