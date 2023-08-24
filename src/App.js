@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Mucsin from "./Mucsin";
 
+import logo from './logo.svg';
+import './App.css';
+import Lehane from './Lehane';
 function App() {
   return (
     <div className="App">
-      <Mucsin />
+     <Lehane/>
     </div>
   );
 }
