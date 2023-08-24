@@ -1,4 +1,10 @@
 function Mucsin() {
-  return <h1>Hi am mucsin</h1>;
+  return (
+    <div>
+      <h1>
+        Hi <span style={{ color: blue }}>am</span> mucsin
+      </h1>
+    </div>
+  );
 }
 export default Mucsin;
