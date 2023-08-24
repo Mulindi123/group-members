@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import { Routes, Route,Link } from 'react-router-dom';
+import Medrine from './Medrine';
 
 function App() {
   return (
     <div className="App">
-     
+      <nav>
+        <button><Link to= "/medrine">Medrine</Link></button>
+     </nav>
+     <Routes>
+     <Route path="/medrine" element={<Medrine/>} />
+      </Routes>
     </div>
   );
 }
