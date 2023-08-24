@@ -1,7 +1,10 @@
+
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route,Link } from 'react-router-dom';
 import Medrine from './Medrine';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
