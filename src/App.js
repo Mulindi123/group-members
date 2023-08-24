@@ -1,28 +1,24 @@
+
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
 import Joel from './Joel';
-
-import logo from './logo.svg';
-import './App.css';
-import { Routes, Route,Link } from 'react-router-dom';
+import Lehane from './Lehane';
 import Medrine from './Medrine';
-import logo from "./logo.svg";
-import "./App.css";
+
 
 function App() {
   return (
     <div className="App">
       <nav>
         <button><Link to='/joel'>Joel</Link></button>
+        <button><Link to='/lehane'>Lehane</Link> </button>
+        <button><Link to= "/medrine">Medrine</Link></button>
       </nav>
      <Routes>
       <Route path='/joel' element={<Joel/>}/>
+      <Route path="/medrine" element={<Medrine/>} />
+      <Route path='/lehane' element={<Lehane/>} />
      </Routes>
-        <button><Link to= "/medrine">Medrine</Link></button>
-     </nav>
-     <Routes>
-     <Route path="/medrine" element={<Medrine/>} />
-      </Routes>
     </div>
   );
 }
