@@ -1,5 +1,3 @@
-
-
 function Joel(){
     return(
         <div>
