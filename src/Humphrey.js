@@ -1,5 +1,7 @@
 function Humphrey(){
     return<div>
-        <h1>Hello,world  am Humphrey Njuguna</h1>
+        <h1>Hello,this is Humphrey's Component</h1>
     </div>
 }
+
+export default Humphrey
