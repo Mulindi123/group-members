@@ -3,3 +3,4 @@ function Humphrey(){
         <h1>Hello,world  am Humphrey Njuguna</h1>
     </div>
 }
+export default Humphrey
