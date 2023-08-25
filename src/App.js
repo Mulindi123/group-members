@@ -15,8 +15,7 @@ function App() {
         <button><Link to='/joel'>Joel</Link></button>
         <button><Link to='/lehane'>Lehane</Link> </button>
         <button><Link to= "/medrine">Medrine</Link></button>
-        <button><Link to= "/mucsin">Mucsin</Link></button>
-        <button><Link to= "/humphrey">Humphrey</Link></button>
+        <button><Link to= "/mucsin">Mucsin</Link></button>       <button><Link to= "/humphrey">Humphrey</Link></button>
       </nav>
      <Routes>
       <Route path="/joel" element={<Joel/>}/>
